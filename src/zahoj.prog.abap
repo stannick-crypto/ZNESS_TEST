@@ -19,4 +19,6 @@ SELECT  * FROM zchar_test_t INTO TABLE gt_zchar.
     gv_text = text-t01.
   ENDIF.
 
+
+
 WRITE gv_text.
