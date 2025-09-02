@@ -1,0 +1,6 @@
+{
+  "name": "ZTEST",
+  "skip_initial": false,
+  "type": "TABU",
+  "where": []
+}
