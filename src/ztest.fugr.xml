@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Test FIORI</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTESTTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTEST</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMARA_FROM_FIORI_CREATE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Založení záznamu</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_MATNR</PARAMETER>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_SUCCESS</PARAMETER>
+       <TYP>BOOLEAN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Číslo materiálu</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SUCCESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Booleovská proměnná (X=true, -=false, space=unknown)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMARA_FROM_FIORI_GET</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Získání záznamu</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_MATNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_ZMARA_FROM_FIORI</PARAMETER>
+       <TYP>ZMARA_FROM_FIORI</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Číslo materiálu</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ZMARA_FROM_FIORI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabulka dat z aplikace FIORI TEST</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZTEST_RFC_FIORI</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Test FIORI</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>TBL_MARA</PARAMETER>
+       <TYP>ZMARA</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TBL_MARA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bla</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

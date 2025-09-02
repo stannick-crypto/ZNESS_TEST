@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZTEST_V</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>C</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>ZTEST</ROOTTAB>
+    <DDTEXT>test</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>A</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZTEST_V</VIEWNAME>
+     <TABNAME>ZTEST</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZTEST</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>ZTEST</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ID</VIEWFIELD>
+     <TABNAME>ZTEST</TABNAME>
+     <FIELDNAME>ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>VERZE</VIEWFIELD>
+     <TABNAME>ZTEST</TABNAME>
+     <FIELDNAME>VERZE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>MATNR</VIEWFIELD>
+     <TABNAME>ZTEST</TABNAME>
+     <FIELDNAME>MATNR</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
